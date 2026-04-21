@@ -1,5 +1,7 @@
 # ollama-rdna1
 
+By [artium-projects.com](https://artium-projects.com) -- a step-by-step guide on how to create and deploy this project.
+
 > Tried running local LLMs on your RX 5700 XT? Discovered AMD dropped ROCm support? Searched everywhere and found no solution? So did I -- this is the solution I wish I'd found.
 
 A drop-in replacement for [Ollama](https://ollama.com) for AMD GPUs that lost ROCm support -- specifically RDNA 1 (gfx1010) cards like the RX 5500 XT, RX 5600 XT, and RX 5700 XT.
@@ -571,12 +573,6 @@ Add `--jinja` when calling llama-server or llama-mtmd-cli directly. ollama-rdna1
 ## Contributing
 
 Issues and pull requests are welcome. If you have tested ollama-rdna1 on a GPU not listed above, please open an issue with your hardware details and performance numbers.
-
----
-
-## Author
-
-By [artium-projects.com](https://artium-projects.com) -- a step-by-step guide on how to create and deploy this project.
 
 ---
 
