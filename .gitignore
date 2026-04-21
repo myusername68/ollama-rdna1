@@ -1,0 +1,27 @@
+# llama.cpp (cloned separately during build)
+llama.cpp/
+
+# Downloaded models (large binary files)
+models/
+
+# HuggingFace artifacts
+.cache/
+*.safetensors
+*.safetensors.index.json
+
+# Runtime
+*.log
+*.pid
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / tools
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
