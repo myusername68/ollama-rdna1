@@ -574,6 +574,12 @@ Issues and pull requests are welcome. If you have tested ollama-rdna1 on a GPU n
 
 ---
 
+## Author
+
+By [artium-projects.com](https://artium-projects.com) -- a step-by-step guide on how to create and deploy this project.
+
+---
+
 ## License
 
 MIT
