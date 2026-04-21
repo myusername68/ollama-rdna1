@@ -1,5 +1,7 @@
 # ollama-rdna1
 
+> Tried running local LLMs on your RX 5700 XT? Discovered AMD dropped ROCm support? Searched everywhere and found no solution? So did I -- this is the solution I wish I'd found.
+
 A drop-in replacement for [Ollama](https://ollama.com) for AMD GPUs that lost ROCm support -- specifically RDNA 1 (gfx1010) cards like the RX 5500 XT, RX 5600 XT, and RX 5700 XT.
 
 Uses [llama.cpp](https://github.com/ggml-org/llama.cpp) with a Vulkan backend instead of ROCm. No ROCm installation required. Provides Ollama-compatible and OpenAI-compatible APIs on port 11434, pulls models from both the Ollama registry and HuggingFace, and supports text-only and multimodal (vision + audio) models.
