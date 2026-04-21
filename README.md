@@ -6,6 +6,8 @@ A drop-in replacement for [Ollama](https://ollama.com) for AMD GPUs that lost RO
 
 Uses [llama.cpp](https://github.com/ggml-org/llama.cpp) with a Vulkan backend instead of ROCm. No ROCm installation required. Provides Ollama-compatible and OpenAI-compatible APIs on port 11434, pulls models from both the Ollama registry and HuggingFace, and supports text-only and multimodal (vision + audio) models.
 
+**Linux only.** This problem is Linux-specific -- ROCm only exists on Linux. On Windows, Ollama uses DirectML or CUDA instead of ROCm, so RDNA 1 GPUs are not affected.
+
 ---
 
 ## Why This Exists
